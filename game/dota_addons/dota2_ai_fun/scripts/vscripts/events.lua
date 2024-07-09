@@ -541,7 +541,7 @@ local function OnVoteTimerChange()
 end
 
 function GameMode:OnPlayerConnectFull(keys)
---	print("All Players Connected!")
+	print("All Players Connected!")
 	GameMode.iVoteTime = VOTE_TIME
 	CustomGameEventManager:Send_ServerToAllClients("update_vote_time", {iTime=GameMode.iVoteTime})
 	GameRules:GetGameModeEntity():SetContextThink('VoteTimer', OnVoteTimerChange, 1)

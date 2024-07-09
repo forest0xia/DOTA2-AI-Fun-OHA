@@ -14,11 +14,11 @@ if IsInToolsMode() then
 	RADIANT_PLAYER_COUNT = 0
 	DIRE_PLAYER_COUNT = 0
 else
-	RADIANT_PLAYER_COUNT = 12
-	DIRE_PLAYER_COUNT = 12
+	RADIANT_PLAYER_COUNT = 10
+	DIRE_PLAYER_COUNT = 10
 end
-RADIANT_MAX_PLAYER_COUNT = 12
-DIRE_MAX_PLAYER_COUNT = 12
+RADIANT_MAX_PLAYER_COUNT = 10
+DIRE_MAX_PLAYER_COUNT = 10
 
 -- Default value for pregame options
 GOLD_PER_TICK = 3                     -- How much gold should players get per tick?
