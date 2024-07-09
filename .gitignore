@@ -12,3 +12,15 @@ tontyoutoure
 panorama_debugger.cfg
 custom_game_whitelist.txt
 test.lua
+
+# Ignore everything:
+*
+
+# Except for the themes directories:
+
+!content/dota_addons/dota2_ai_fun/
+!game/dota_addons/dota2_ai_fun
+!LICENSE
+!.gitignore
+!link.bat
+!README.md
